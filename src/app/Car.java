@@ -1,4 +1,4 @@
-package myCar;
+package app;
 
 public class Car {
 

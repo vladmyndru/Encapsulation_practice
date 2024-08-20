@@ -68,9 +68,9 @@ public class Employee {
         this.age = age;
     }
     public void display() {
-        System.out.println("Welcome! \nName: " + name + "\nSurname: " + secondName +
+        System.out.printf("Welcome! \nName: " + name + "\nSurname: " + secondName +
                 "\nPosition: " + position + "\nE-mail: " + email +
-                "\nPhone " + phoneNumber + "\nAge: " + age + "\n--------------" );
+                "\nPhone " + phoneNumber + "\nAge: " + age + "\n--------------\n" );
 
     }
 }
